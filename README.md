@@ -162,8 +162,7 @@ portfolio-website/
 ├── js/
 │   └── script.js
 ├── assets/
-│   ├── images/
-|   ├──linkedin profile.mp4
+│   ├──linkedin profile.mp4
 │   └── resume.docx
 └── screenshots/
 ```
@@ -208,17 +207,13 @@ This project helped me improve my skills in:
 
 
 ### Home Page
-
-Insert screenshot image
+![alt text](<screenshots/Screenshot (115).png>)
 
 ### Projects Section
-
-Insert screenshot image
+![alt text](<screenshots/Screenshot (116).png>)
 
 ### Contact Section
-
-Insert screenshot image
-
+![alt text](<screenshots/Screenshot (117).png>)
 ---
 
 ## Author
@@ -229,11 +224,11 @@ Insert screenshot image
 
 📧 kommukotisuresh@gmail.com
 
-🔗 LinkedIn: Add your LinkedIn profile URL
+🔗 LinkedIn: https://www.linkedin.com/in/koti-suresh-kommu-a26403339
 
-🔗 GitHub: Add your GitHub profile URL
+🔗 GitHub: https://github.com/Kotisuresh-123
 
-🔗 LeetCode: Add your LeetCode profile URL
+🔗 LeetCode:https://leetcode.com/u/Kotisuresh_123/
 
 ---
 
