@@ -1,0 +1,390 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+scroll-behavior:smooth;
+}
+
+section{
+padding:80px 10%;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+position:fixed;
+width:100%;
+background:#111827;
+z-index:1000;
+}
+
+.nav-links{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:
+linear-gradient(
+135deg,
+#0ea5e9,
+#14b8a6
+);
+}
+
+.hero h1{
+font-size:4rem;
+}
+
+.hero h2{
+margin:15px 0;
+}
+
+.btn{
+display:inline-block;
+padding:12px 20px;
+background:#14b8a6;
+color:white;
+text-decoration:none;
+margin:10px;
+border-radius:10px;
+}
+
+.card{
+background:rgba(255,255,255,0.1);
+padding:25px;
+border-radius:15px;
+backdrop-filter:blur(10px);
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+}
+
+.skill-card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+text-align:center;
+transition:.3s;
+}
+
+.skill-card:hover{
+transform:translateY(-10px);
+}
+
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table,th,td{
+border:1px solid white;
+}
+
+th,td{
+padding:15px;
+}
+
+
+footer{
+padding:20px;
+text-align:center;
+background:#111827;
+}
+
+#topBtn{
+position:fixed;
+bottom:20px;
+right:20px;
+display:none;
+padding:12px;
+}
+
+.light-mode{
+background:#f4f4f4;
+color:#111;
+}
+
+@media(max-width:768px){
+
+.nav-links{
+display:none;
+}
+
+.hero h1{
+font-size:2.5rem;
+}
+
+}
+
+
+.timeline .card{
+    background: linear-gradient(135deg, #1e293b, #334155);
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 5px solid #14b8a6;
+    box-shadow: 0 8px 20px rgba(20,184,166,0.2);
+    transition: all 0.3s ease;
+    max-width: 700px;
+    margin: auto;
+}
+
+.timeline .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(20,184,166,0.4);
+}
+
+.timeline .card h3{
+    color: #14b8a6;
+    margin-bottom: 8px;
+}
+
+.timeline .card p{
+    margin: 5px 0;
+    color: #cbd5e1;
+}
+
+.timeline .card ul{
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.timeline .card li{
+    margin-bottom: 8px;
+}
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    border-top:4px solid #14b8a6;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:all 0.3s ease;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(20,184,166,0.3);
+}
+
+.project-card h3{
+    color:#14b8a6;
+    margin-bottom:10px;
+}
+
+.project-card p{
+    color:#cbd5e1;
+    margin-bottom:15px;
+    line-height:1.6;
+}
+
+.project-card a{
+    display:inline-block;
+    text-decoration:none;
+    background:#14b8a6;
+    color:white;
+    padding:8px 15px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.project-card a:hover{
+    background:#0f766e;
+}
+
+/* Projects Title */
+
+ .section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:25px;
+    color:#14b8a6;
+    font-weight:700;
+}
+
+/* Filter Buttons Container */
+
+.project-filter{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:35px;
+    flex-wrap:wrap;
+}
+
+/* Filter Buttons */
+
+.project-filter button{
+    background:#1e293b;
+    color:white;
+    border:2px solid #14b8a6;
+    padding:10px 22px;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+    transition:all 0.3s ease;
+}
+
+/* Hover Effect */
+
+.project-filter button:hover{
+    background:#14b8a6;
+    transform:translateY(-3px);
+    box-shadow:0 5px 15px rgba(20,184,166,0.4);
+}
+
+/* Active Button (optional) */
+
+.project-filter button.active{
+    background:#14b8a6;
+    color:white;
+}
+
+/* Contact Section */
+
+#contact{
+    padding: 80px 10%;
+}
+
+#contact .section-title{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #14b8a6;
+    margin-bottom: 30px;
+}
+
+/* Form */
+
+#contactForm{
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    background: #1e293b;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+#contactForm input,
+#contactForm textarea{
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: #334155;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#contactForm input::placeholder,
+#contactForm textarea::placeholder{
+    color: #cbd5e1;
+}
+
+/* Focus Effect */
+
+#contactForm input:focus,
+#contactForm textarea:focus{
+    border-color: #14b8a6;
+    box-shadow: 0 0 10px rgba(20,184,166,0.3);
+}
+
+/* Textarea */
+
+#contactForm textarea{
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Submit Button */
+
+#contactForm button{
+    width: 100%;
+    padding: 14px;
+    background: #14b8a6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contactForm button:hover{
+    background: #0f766e;
+    transform: translateY(-2px);
+}
+
+
+/* About Section */
+
+#about{
+    padding: 80px 10%;
+    text-align: center;
+}
+
+#about .section-title{
+    font-size: 2.5rem;
+    color: #14b8a6;
+    margin-bottom: 30px;
+}
+
+/* About Card */
+
+#about .card{
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    background: #1e293b;
+    border-radius: 15px;
+    border-left: 5px solid #14b8a6;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+#about .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(20,184,166,0.25);
+}
+
+#about .card p{
+    color: #cbd5e1;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+}

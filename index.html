@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kommu Koti Suresh | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">KKS</h2>       
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+         
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Kommu Koti Suresh</h1>
+            <h2><span id="typing"></span></h2>
+            <p>Building modern, responsive and scalable web applications.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="assets/resume.docx" class="btn">Download Resume</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="card">
+            <p>
+                Motivated Computer Science Engineering student with hands-on experience building full-stack web
+                applications using the MERN stack.
+
+                Completed a 6-month Web Developer Internship at Technical Hub where I developed responsive websites,
+                APIs and database solutions.
+
+                Passionate about UI/UX and modern web development.
+            </p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">React.js</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">Express.js</div>
+            <div class="skill-card">PHP</div>
+            <div class="skill-card">MySQL</div>
+            <div class="skill-card">MongoDB</div>
+            <div class="skill-card">GitHub</div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+
+    <section>
+        <h2 class="section-title">Internship</h2>
+        <div class="timeline">
+            <div class="card">
+                <h3>Technical Hub</h3>
+                <p>Web Developer Intern</p>
+                <p>Nov 2024 - May 2025</p>
+                <ul>
+                    <li>Built responsive websites</li>
+                    <li>Developed APIs using Node.js</li>
+                    <li>Worked with MongoDB</li>
+                    <li>Delivered client projects</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-filter">
+            <button onclick="filterProjects('all')">All</button>
+            <button onclick="filterProjects('web')">Web</button>
+            <button onclick="filterProjects('react')">React</button>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card web">
+                <h3>BigBasket Clone</h3>
+                <p>E-commerce website with cart and local storage.</p>
+                <a href="#">GitHub</a>
+            </div>
+            <div class="project-card react">
+                <h3>Skill Learning Platform</h3>
+                <p>React + Node.js learning platform.</p>
+                <a href="#">GitHub</a>
+            </div>
+            <div class="project-card web">
+                <h3>Tourism in India</h3>
+                <p>Interactive tourism website.</p>
+                <a href="#">GitHub</a>
+            </div>
+            <div class="project-card react">
+                <h3>crowd management</h3>
+                <p>efficient crowd management website.</p>
+                <a href="https://github.com/Kotisuresh-123/crowd-management">GitHub</a>
+            </div>
+            <div class="project-card react">
+                <h3>leaked API key detection</h3>
+                <p>efficient detection of API keys</p>
+                <a href="https://github.com/Kotisuresh-123/CTF-HACKTHON">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>Institute</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>B.Tech CSE</td>
+                <td>UCE Kakinada</td>
+                <td>8.2 CGPA</td>
+            </tr>
+            <tr>
+                <td>Diploma</td>
+                <td>Aditya Polytechnic</td>
+                <td>97.01%</td>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>GPR ZPH School</td>
+                <td>83%</td>
+            </tr>
+        </table>
+    </section>
+    <!-- VIDEO -->
+
+    <section>
+        <h2 class="section-title">Introduction Video</h2>
+        <video width="100%" controls>
+            <source src="assets/demo.mp4" type="video/mp4">      --------
+        </video>
+    </section>
+
+    <!-- IFRAME -->
+    <section>
+        <h2 class="section-title">Location</h2>
+        <iframe src="https://maps.google.com/maps?q=Rajahmundry&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%"
+            height="300">
+        </iframe>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form id="contactForm" >
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2026 Kommu Koti Suresh</p>
+        <div>
+            <a href="https://www.linkedin.com/in/koti-suresh-kommu-a26403339">LinkedIn</a>
+            <a href="https://github.com/Kotisuresh-123">GitHub</a>
+            <a href="https://leetcode.com/u/Kotisuresh_123/">LeetCode</a>
+        </div>
+    </footer>
+    <button id="topBtn">↑</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
