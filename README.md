@@ -207,13 +207,13 @@ This project helped me improve my skills in:
 
 
 ### Home Page
-![alt text](<screenshots/Screenshot (115).png>)
+screenshots/home.png
 
 ### Projects Section
-![alt text](<screenshots/Screenshot (116).png>)
+screenshots/projects.png
 
 ### Contact Section
-![alt text](<screenshots/Screenshot (117).png>)
+screenshots/contactme.png
 ---
 
 ## Author
