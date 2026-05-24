@@ -37,9 +37,7 @@ typeEffect();
 
 // Form Validation
 
-document
-    .getElementById("contactForm")
-    .addEventListener("submit", (e) => {
+document.getElementById("contactForm").addEventListener("submit", (e) => {
 
         let email =
             document.querySelector(
