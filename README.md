@@ -12,7 +12,7 @@ This portfolio showcases my skills, projects, internship experience, education, 
 
 Example:
 
-https://yourusername.github.io/portfolio-website/
+https://kotisuresh-123.github.io/Task-1-apx-planet-portfolio/
 
 ---
 
