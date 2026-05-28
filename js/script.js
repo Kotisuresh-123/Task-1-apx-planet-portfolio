@@ -91,3 +91,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     }
   });
 });
+
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}

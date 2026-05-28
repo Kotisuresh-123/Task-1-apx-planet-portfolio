@@ -8,19 +8,16 @@ This portfolio showcases my skills, projects, internship experience, education, 
 
 ## Live Demo
 
-🔗 Add your deployed website link here
-
-Example:
-
 https://kotisuresh-123.github.io/Task-1-apx-planet-portfolio/
 
 ---
 
+### 🎥 Demo Video
+
+[Watch Demo Video on LinkedIn](https://www.linkedin.com/posts/koti-suresh-kommu-a26403339_apexplanet-webdevelopment-html-ugcPost-7465682717054013440-u4eJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFT0mf4BPmeCXwiynJbRyRMqIQtaOO4pBR4)
+
+
 ## GitHub Repository
-
-🔗 Add your GitHub repository link here
-
-Example:
 
 https://github.com/Kotisuresh-123/Task-1-apx-planet-portfolio.git
 
